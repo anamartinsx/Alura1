@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Projeto de Vida</title>
+
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+header {
+background-color: #6a5acd;
+color: white;
+padding: 30px;
+}
+
+main {
+max-width: 800px;
+margin: 30px auto;
+padding: 20px;
+}
+
+section {
+background-color: white;
+margin-bottom: 20px;
+padding: 20px;
+border-radius: 10px;
+}
+
+h2 {
+color: #6a5acd;
+}
+
+ul {
+text-align: left;
+display: inline-block;
+}
+
+button {
+background-color: #6a5acd;
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover {
+background-color: #483d8b;
+}
+
+#mensagem {
+margin-top: 20px;
+font-weight: bold;
+color: #6a5acd;
+}
+
+footer {
+background-color: #333;
+color: white;
+padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Meu Projeto de Vida</h1>
+<p>Organizando meus objetivos para o futuro</p>
+</header>
+
+<main>
+
+<section>
+<h2>Meu objetivo profissional</h2>
+<p>
+Meu objetivo é me preparar para o futuro e conquistar
+uma profissão que eu goste.
+</p>
+</section>
+
+<section>
+<h2>Meus objetivos</h2>
+
+<ul>
+<li>Concluir meus estudos.</li>
+<li>Entrar em uma faculdade.</li>
+<li>Escolher uma profissão.</li>
+<li>Conseguir um emprego.</li>
+<li>Continuar aprendendo coisas novas.</li>
+</ul>
+</section>
+
+<section>
+<h2>Minhas metas</h2>
+
+<p>📚 Estudar para alcançar meus objetivos.</p>
+<p>💻 Aprender mais sobre tecnologia.</p>
+<p>🎓 Fazer uma faculdade.</p>
+<p>💼 Construir minha carreira profissional.</p>
+</section>
+
+<section>
+<h2>Uma mensagem para o meu futuro</h2>
+
+<button onclick="mostrarMensagem()">
+Clique aqui
+</button>
+
+<p id="mensagem"></p>
+</section>
+
+</main>
+
+<footer>
+<p>Projeto de Vida
+HTML, CSS e JavaScript</p>
+</footer>
+<script>
+function mostrarMensagem() {
+document.getElementById("mensagem").innerText =
+"Acredito que, com dedicação e esforço, posso alcançar meus objetivos!";
+}
+</script>
+
+</body>
+</html>
